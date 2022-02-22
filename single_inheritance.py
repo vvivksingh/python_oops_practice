@@ -18,7 +18,7 @@ class Parent:
 
 class Child(Parent):
     def __init__(self):
-
+        super().__init__()
         self.d = 40
 
     def m4(self):
